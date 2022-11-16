@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "normalize.css";
+
+@font-face {
+  font-family: "Orchidea-pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  src: local("Orchidea-pro"),
+    url("./assets/fonts/orchidea-pro-medium.ttf") format("ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 3.5rem;
+  background: #f2f3f7;
+  color: #141414;
+  font-family: "Manrope", sans-serif;
+}
+
+p,
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 4.8rem;
+  line-height: 110%;
+  font-weight: 500;
+  font-family: "Orchidea-pro", sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 2.34rem;
+}
+
+html {
+  font-size: calc(100vw / 2500 * 10);
+}
+
+@media (max-width: 1920px) {
+  html {
+    font-size: calc(100vw / 1920 * 10);
+  }
+}
+@media (max-width: 414px) {
+  html {
+    font-size: calc(100vw / 414 * 10);
+  }
 }

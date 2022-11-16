@@ -1,0 +1,9 @@
+.sliderwrapper {
+  width: 132.3rem;
+  margin: 0 auto;
+  margin-bottom: 16rem;
+  @media (max-width: 414px) {
+    width: 100%;
+    margin-bottom: 7rem;
+  }
+}
