@@ -1,11 +1,9 @@
 @import "normalize.css";
 
 @font-face {
-  font-family: "Orchidea-pro", sans-serif;
-  font-weight: 500;
+  font-family: "Orchidea-pro-Regular";
   font-style: normal;
-  src: local("Orchidea-pro"),
-    url("./assets/fonts/orchidea-pro-medium.ttf") format("ttf");
+  src: url("./assets/fonts/OrchideaPro-Regular.woff") format("woff");
 }
 
 html,
@@ -28,7 +26,7 @@ h2 {
   font-size: 4.8rem;
   line-height: 110%;
   font-weight: 500;
-  font-family: "Orchidea-pro", sans-serif;
+  font-family: "Orchidea-pro-Regular";
   text-transform: uppercase;
 }
 

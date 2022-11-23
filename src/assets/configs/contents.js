@@ -3,6 +3,12 @@ import contentFirstSmall from "../../assets/images/content-small1.jpg";
 import contentSecondBig from "../../assets/images/content-big2.jpg";
 import contentSecondSmall from "../../assets/images/content-small2.jpg";
 
+import contentFirstBigM from "../../assets/images/content-big1M.jpg";
+import contentFirstSmallM from "../../assets/images/content-small1M.jpg";
+import contentSecondBigM from "../../assets/images/content-big2M.jpg";
+import contentSecondSmallM from "../../assets/images/content-small2M.jpg";
+
+
 import slide1 from "../images/slider/slide1.jpg";
 import slide2 from "../images/slider/slide2.jpg";
 import slide3 from "../images/slider/slide3.jpg";
@@ -14,7 +20,8 @@ import slide7 from "../images/slider/slide7.jpg";
 export const content = {
   contentTop: {
     main: {
-      img: contentFirstBig,
+      imgDesktop: contentFirstBig,
+      imgMobile: contentFirstBigM,
       title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       textbig:
         "Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
@@ -22,7 +29,8 @@ export const content = {
         "  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
     },
     sub: {
-      img: contentFirstSmall,
+      imgDesktop: contentFirstSmall,
+      imgMobile: contentFirstSmallM,
       title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       textbig:
         "Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
@@ -32,7 +40,8 @@ export const content = {
   },
   contentBottom: {
     main: {
-      img: contentSecondBig,
+      imgDesktop: contentSecondBig,
+      imgMobile: contentSecondBigM,
       title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       textbig:
         "Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
@@ -40,7 +49,8 @@ export const content = {
         "  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
     },
     sub: {
-      img: contentSecondSmall,
+      imgDesktop: contentSecondSmall,
+      imgMobile: contentSecondSmallM,
       title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       textbig:
         "Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",

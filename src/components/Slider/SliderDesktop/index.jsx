@@ -11,24 +11,29 @@ export const SliderDesktop = () => {
 
   const slider = useRef(null);
   const container = useRef(null);
+
+
   useEffect(() => {
-    const anim = gsap
-      .timeline({
-        scrollTrigger: {
-          pin: true,
-          trigger: container?.current,
-          start: "top 160px",
-          end: () => `$+=${slider?.current?.offsetWidth * 3}`,
-          invalidateOnRefresh: true,
-          scrub: true,
-        },
-      })
-      .to(slider?.current, {
-        x: -slider?.current?.offsetWidth * 0.9,
-      });
+    setTimeout(() => {
+      gsap
+        .timeline({
+          scrollTrigger: {
+            pin: true,
+            trigger: container?.current,
+            start: "top 160px",
+            end: () => `$+=${slider?.current?.offsetWidth * 3}`,
+            invalidateOnRefresh: true,
+            scrub: true,
+          },
+        })
+        .to(slider?.current, {
+          x: -slider?.current?.offsetWidth * 0.9,
+        });
+    }, 100);
+
     return () => {
-      anim()?.kill();
-      anim()?.scrollTrigger?.kill();
+      gsap?.kill();
+      gsap?.scrollTrigger?.kill();
     };
   }, []);
 
